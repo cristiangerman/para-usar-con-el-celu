@@ -65,32 +65,64 @@ console.log(frutas[4]);
 //     console.log("si podes pasar");
 // }else {console.log("no podes pasar crack");}
 
-let numeros = [1, 2, 3, 4, 5]
+const numeros = [1, 2, 3, 4, 5]
 console.log(numeros);
 
 let familia = [
     {
+        nombre: "nicol",
         edad: 23,
         genero: "femenino",
         cabello: "oscuro",
+        ojos: "marrones"
+
+    },
+    {
+        nombre: "juan",
+        edad: 22,
+        genero: "masculino",
+        cabello: "oscuro",
+        ojos: "marrones"
+
+    },
+    {
+        nombre: "celeste",
+        edad: 30,
+        genero: "femenino",
+        cabello: "oscuro",
+        ojos: "azules",
+
+    },
+    {
+        nombre: "fernando",
+        edad: 45,
+        genero: "masculino",
+        cabello: "oscuro",
+        ojos: "verdes",
+
+    },
+    {
+        nombre: "ivan",
+        edad: 25,
+        genero: "masculino",
+        cabello: "rubio",
         ojos: "marrones",
-        cumpleaños: "12 de julio"
+
     }
+
+
 ]
+console.log(familia);
 
-const familia = [
-    {
-        nombre: "Juan",
-        edad: 35,
-        relacion: "padre"
-    },
+console.log(familia[0]);
+console.log(familia[1]);
+console.log(familia[2]);
+console.log(familia[3]);
+console.log(familia[4]);
 
-    {
-        nombre: "Ana",
-        edad: 34,
-        relacion: "madre"
-    },
-    { nombre: "Pedro", edad: 10, relacion: "hijo" },
-    { nombre: "Maria", edad: 8, relacion: "hija" },
-    { nombre: "Carlos", edad: 65, relacion: "abuelo" }
-];
+
+let ramdomText = (`en la verdu me compre una ${frutas[1]} y me lleve ${numeros[3]} y se la regale a ${familia[4].nombre}`)
+
+console.log(ramdomText);
+
+//condiciones

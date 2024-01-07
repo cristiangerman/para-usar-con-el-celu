@@ -125,4 +125,11 @@ let ramdomText = (`en la verdu me compre una ${frutas[1]} y me lleve ${numeros[3
 
 console.log(ramdomText);
 
-//condiciones
+//condicionales
+
+let numero1 = 8
+let numero2 = 7
+
+if (numero1>numero2) {
+    console.log(numero1);
+}else {console.log(numero2);}

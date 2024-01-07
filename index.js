@@ -1,0 +1,96 @@
+//nivel dificultad facil
+let myName = "Cristian"
+console.log(myName);
+
+let myLastName = "Benavides"
+let myAge = 25
+let myPet = "Donato"
+let myPetAge = 3
+
+let nombreCompleto = (myName + ' ' + myLastName)
+console.log(nombreCompleto);
+
+let presentationText = (`me llamo ${myName} mi apellido es ${myLastName} tengo ${25} años mi gato se llama ${myPet} y tiene ${myPetAge} años`)
+console.log(presentationText);
+
+//nivel dificultad medio
+let sumAges = (myAge + myPetAge)
+let restAges = (myAge - myPetAge)
+let produdAges = (myAge * myPetAge)
+let divisionAges = (myAge / myPetAge)
+
+console.log(sumAges);
+
+let estudiante = {
+    cabello: "rubio",
+    estatura: "alto",
+    ojos: "marrones",
+    nacionalidad: "argentina",
+    genero: "hombre"
+}
+
+console.table(estudiante);
+
+console.log(estudiante.cabello);
+console.log(estudiante.estatura);
+console.log(estudiante.ojos);
+console.log(estudiante.nacionalidad);
+console.log(estudiante.genero);
+
+
+let pet = {
+    genero: "macho",
+    pelaje: "blanco",
+    cuerpo: "gordito",
+    cola: "ondulada",
+    edad: 4
+}
+console.log("----------");
+
+let frutas = ["banana", "manzana", "naranja", "pomelo", "melon"]
+
+console.log(frutas);
+
+console.log("----------");
+
+console.log(frutas[0]);
+console.log(frutas[1]);
+console.log(frutas[2]);
+console.log(frutas[3]);
+console.log(frutas[4]);
+
+//nivel alto
+// let iamAdult = Number(prompt("ingrese su edad"))
+// if (iamAdult >= 18) {
+//     console.log("si podes pasar");
+// }else {console.log("no podes pasar crack");}
+
+let numeros = [1, 2, 3, 4, 5]
+console.log(numeros);
+
+let familia = [
+    {
+        edad: 23,
+        genero: "femenino",
+        cabello: "oscuro",
+        ojos: "marrones",
+        cumpleaños: "12 de julio"
+    }
+]
+
+const familia = [
+    {
+        nombre: "Juan",
+        edad: 35,
+        relacion: "padre"
+    },
+
+    {
+        nombre: "Ana",
+        edad: 34,
+        relacion: "madre"
+    },
+    { nombre: "Pedro", edad: 10, relacion: "hijo" },
+    { nombre: "Maria", edad: 8, relacion: "hija" },
+    { nombre: "Carlos", edad: 65, relacion: "abuelo" }
+];
